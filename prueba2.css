@@ -1,0 +1,55 @@
+#titulo {
+    color:brown;
+}
+p.texto {
+    color:darkblue
+}
+p.especial {
+    color:seagreen
+}
+div p{
+    color:purple
+}
+div h2, div h3 {
+    color:darkgoldenrod
+}
+
+* {
+    font-size: 24px;
+    color:black
+}
+/*COMENTARIOS
+.color {
+    color:rgb(0, 255, 255);
+}*/
+.color {
+    /*
+    dotted
+    dashed
+    solid
+    double
+    groove
+    ridge
+    inset
+    outset
+    */
+    border-style:solid;
+    border-width:5px;
+    border-color:blue;
+    border-radius:10px
+}
+#fondo {
+    background-color:rgba(255, 0, 0);
+    /* opacity: 0.5; */
+    background-image: url(sistemas.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    background-position: center bottom;
+
+}
+.margen {
+    background-color:chocolate;
+    margin: 10px;
+    padding: 10px;
+}
